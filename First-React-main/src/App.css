@@ -1,0 +1,38 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+
+}
+.profieCard{
+  width:600px;
+  height:300px;
+  border-radius:5px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2%;
+  margin: 0 auto;
+  transition: transform 1s ease-in-out ;
+ background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+.profieCard:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: rotateY(360deg);
+}
+
+.text{
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.profileImg{
+  width: 150px;
+  height:150;
+  border-radius: 50%;
+}
